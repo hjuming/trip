@@ -9,15 +9,15 @@
       <div class="block lg:hidden w-full">
         <div class="mt-4 text-center">
           <div class="text-4xl font-bold leading-none">
-            Welcome to TRIP
+            歡迎使用 TRIP
           </div>
-          <div class="mt-3 text-lg tracking-tight leading-6 text-gray-400">Tourism and Recreational Interest Points.
+          <div class="mt-3 text-lg tracking-tight leading-6 text-gray-400">旅遊與休閒興趣點規劃系統
           </div>
         </div>
       </div>
 
       <div class="text-xl md:text-2xl font-bold leading-tight mt-10">
-        {{ isRegistering ? "Register" : "Sign in" }}
+        {{ isRegistering ? "註冊" : "登入" }}
       </div>
 
       @if (error) {
@@ -31,19 +31,19 @@
       @if (pendingOTP) {
       <div pFocusTrap>
         <p class="mt-8 text-center font-light text-gray-500">
-          Enter your TOTP code
+          輸入您的 TOTP 驗證碼
         </p>
 
         <div class="mt-4 flex gap-2 flex-col items-center">
           <p-inputotp [(ngModel)]="otp" [integerOnly]="true" size="large" [length]="6" />
-          <p-button text label="Confirm" (click)="verifyTOTP()" />
+          <p-button text label="確認" (click)="verifyTOTP()" />
         </div>
       </div>
       } @else {
       @defer () {
       @if (authParams?.oidc) {
       <div class="mt-8 text-center">
-        <p-button variant="outlined" severity="primary" size="large" icon="pi pi-key" label="Sign in"
+        <p-button variant="outlined" severity="primary" size="large" icon="pi pi-key" label="登入"
           (click)="authenticate()" />
       </div>
       } @else {
@@ -51,35 +51,35 @@
         <p-floatlabel variant="in">
           <input #username pInputText id="username" formControlName="username" autocorrect="off" autocapitalize="none"
             fluid autofocus />
-          <label for="username">Username</label>
+          <label for="username">使用者名稱</label>
         </p-floatlabel>
         @if (
         authForm.get("username")?.dirty &&
         authForm.get("username")?.hasError("required")
         ) {
-        <span class="text-base text-red-600">Username is required</span>
+        <span class="text-base text-red-600">請輸入使用者名稱</span>
         }
 
         <p-floatlabel variant="in" class="mt-4">
           <input pInputText type="password" inputId="password" formControlName="password" fluid
             (keyup.enter)="onKeypressEnter()" />
-          <label for="password">Password</label>
+          <label for="password">密碼</label>
         </p-floatlabel>
         @if (
         authForm.get("password")?.dirty &&
         authForm.get("password")?.hasError("required")
         ) {
-        <span class="text-base text-red-600">Password is required</span>
+        <span class="text-base text-red-600">請輸入密碼</span>
         }
 
         <div class="mt-4 text-right">
           @if (isRegistering) {
           <p-button [disabled]="!authForm.valid" (click)="register()">
-            Register
+            註冊
           </p-button>
           } @else {
           <p-button [disabled]="!authForm.valid" (click)="authenticate()">
-            Sign in
+            登入
           </p-button>
           }
         </div>
@@ -89,15 +89,14 @@
       <hr class="my-6 border-gray-300 w-full" />
       @if (isRegistering) {
       <p class="mt-8">
-        Have an account?
+        已有帳號？
         <a (click)="isRegistering = false"
-          class="text-blue-500 hover:text-blue-700 font-semibold cursor-pointer">Login</a>
+          class="text-blue-500 hover:text-blue-700 font-semibold cursor-pointer">登入</a>
       </p>
       } @else {
       <p class="mt-8">
-        First time?
-        <a (click)="isRegistering = true" class="text-blue-500 hover:text-blue-700 font-semibold cursor-pointer">Create
-          an account</a>
+        第一次使用？
+        <a (click)="isRegistering = true" class="text-blue-500 hover:text-blue-700 font-semibold cursor-pointer">建立帳號</a>
       </p>
       }
       }
@@ -126,10 +125,10 @@
     <div class="h-full flex items-center">
       <div class="ml-20 mt-12">
         <div class="text-7xl font-bold leading-none text-gray-100">
-          Welcome to TRIP
+          歡迎使用 TRIP
         </div>
         <div class="mt-6 text-lg tracking-tight leading-6 text-gray-400">
-          Tourism and Recreational Interest Points.
+          旅遊與休閒興趣點規劃系統
         </div>
       </div>
     </div>
