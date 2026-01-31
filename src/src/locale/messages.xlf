@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="dashboard.trips" datatype="html">
+        <source>Trips</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">27,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.places" datatype="html">
+        <source>Places</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">46,49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">218,220</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.filters" datatype="html">
+        <source>Filters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">59,62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">110,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.centerOnMyLocation" datatype="html">
+        <source>Center on my location</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">64,65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.place" datatype="html">
+        <source>Place</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">96,98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.quickFilters" datatype="html">
+        <source>Quick Filters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">118,120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.visited" datatype="html">
+        <source>Visited</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">129,132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.dogFriendly" datatype="html">
+        <source>Dog-friendly</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">140,143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.favorites" datatype="html">
+        <source>Favorites</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">151,154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.toilets" datatype="html">
+        <source>Toilets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">162,164</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.categories" datatype="html">
+        <source>Categories</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">167,169</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">354,356</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.deselectAll" datatype="html">
+        <source>Deselect all</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">170,171</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.selectAll" datatype="html">
+        <source>Select all</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.showOutOfBounds" datatype="html">
+        <source>Show out-of-bounds places</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">226,227</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.search" datatype="html">
+        <source>Search...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">248,249</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.countryCity" datatype="html">
+        <source>Country, City, ...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">260,261</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.clearAndCancel" datatype="html">
+        <source>Clear and Cancel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">264,265</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.filterUsingLocation" datatype="html">
+        <source>Filter using location (GMaps API)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">267,268</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.nothingToSee" datatype="html">
+        <source>Nothing to see</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">304,307</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.settings" datatype="html">
+        <source>Settings</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">327,328</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.customizeExperience" datatype="html">
+        <source>Customize your experience</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">328,331</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.darkMode" datatype="html">
+        <source>Dark mode</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">332,333</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.language" datatype="html">
+        <source>Language</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">334,335</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.openGithub" datatype="html">
+        <source>Open Github</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">336</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.logout" datatype="html">
+        <source>Logout</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">337</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.about" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">345,347</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.account" datatype="html">
+        <source>Account</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">348,350</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.preferences" datatype="html">
+        <source>Preferences</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">351,353</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.data" datatype="html">
+        <source>Data</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">357,359</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">426,427</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.documentation" datatype="html">
+        <source>Documentation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">368,369</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.learnHowToUse" datatype="html">
+        <source>Learn how to use TRIP</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">369,371</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.supportTrip" datatype="html">
+        <source>Support TRIP</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">382,383</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.buyMeCoffee" datatype="html">
+        <source>Buy me a coffee</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">383,385</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.newVersion" datatype="html">
+        <source>New version available</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">398,400</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.checkUpdate" datatype="html">
+        <source>Check update</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">411,412</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.current" datatype="html">
+        <source>Current: TRIP <x id="INTERPOLATION" equiv-text="{{ info()?.version }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">412</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.manageData" datatype="html">
+        <source>Manage your data</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">427,429</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.security" datatype="html">
+        <source>Security</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">452,453</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.updatePassword2FA" datatype="html">
+        <source>Update your password, manage 2FA</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">453,455</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.password" datatype="html">
+        <source>Password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">467,468</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.updateYourPassword" datatype="html">
+        <source>Update your password</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">468,470</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.update" datatype="html">
+        <source>Update</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">473,474</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.twoFactorAuth" datatype="html">
+        <source>Two-Factor Auth (2FA)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">482,484</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.addExtraSecurity" datatype="html">
+        <source>Add extra security layer </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">484,486</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.integrations" datatype="html">
+        <source>Integrations </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">508,510</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.manageApiKeys" datatype="html">
+        <source>Manage API keys</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">510,512</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.googleApiKey" datatype="html">
+        <source>Google API Key</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">525,526</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.connectGoogleApi" datatype="html">
+        <source>Connect your Google API key for enhanced location services</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">526,528</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.remove" datatype="html">
+        <source>Remove</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">533,534</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.tripApiKey" datatype="html">
+        <source>TRIP API Key</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">552,553</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.useToAuthenticate" datatype="html">
+        <source>Use it to authenticate in scripts</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">553,555</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.mapParameters" datatype="html">
+        <source>Map Parameters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">582,583</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.configureMap" datatype="html">
+        <source>Configure default map view and tile layers </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">583,585</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.setCurrent" datatype="html">
+        <source>Set Current</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">594,595</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.defaultLatitude" datatype="html">
+        <source>Default Latitude</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">601,602</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.defaultLongitude" datatype="html">
+        <source>Default Longitude</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">606,607</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.tileLayerUrl" datatype="html">
+        <source>Tile Layer URL</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">611,612</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.displayPerformance" datatype="html">
+        <source>Display &amp; Performance</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">628,630</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.visualPerformance" datatype="html">
+        <source>Visual and performance options</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">630,632</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.lowNetworkMode" datatype="html">
+        <source>Low Network Mode</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">644,646</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.useCategoryImages" datatype="html">
+        <source>Use category images to reduce bandwidth</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">646,648</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.gpxIndicator" datatype="html">
+        <source>GPX Indicator</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">658,659</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.showCompass" datatype="html">
+        <source>Show compass when GPX data available</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">659,661</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.showVisitedPlaces" datatype="html">
+        <source>Show Visited Places</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">672,674</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.alwaysDisplayVisited" datatype="html">
+        <source>Always display visited places as small dots</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">674,676</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.storeMapPosition" datatype="html">
+        <source>Store Map Position</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">687,689</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.encodeMapPosition" datatype="html">
+        <source>Encode map position in the URL to restore the same view on refresh</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">689,691</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.dataFilters" datatype="html">
+        <source>Data &amp; Filters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">710,711</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.manageCurrency" datatype="html">
+        <source>Manage currency and category visibility </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">711,713</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.currency" datatype="html">
+        <source>Currency</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">726,727</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.updateDefaultCurrency" datatype="html">
+        <source>Update the default currency </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">727,729</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.hiddenCategories" datatype="html">
+        <source>Hidden Categories</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">743,744</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.selectedHidden" datatype="html">
+        <source>Selected will be hidden by default </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">744,746</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.select" datatype="html">
+        <source>Select...</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">752</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.noChanges" datatype="html">
+        <source>No changes to save</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">766,767</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.fixValidation" datatype="html">
+        <source>Please fix validation errors</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">768,769</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.unsavedChanges" datatype="html">
+        <source>You have unsaved changes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">770,772</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.addCategory" datatype="html">
+        <source> Add Category </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">798,799</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.editCategory" datatype="html">
+        <source>Edit category</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">825,826</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.deleteCategory" datatype="html">
+        <source>Delete category</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">827,828</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.backups" datatype="html">
+        <source>Backups</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">847,848</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.exportData" datatype="html">
+        <source>Export your data</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">848,850</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.create" datatype="html">
+        <source>Create</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">856</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.processing" datatype="html">
+        <source> Processing </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">894,895</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.starting" datatype="html">
+        <source> Starting </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">899,900</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.failed" datatype="html">
+        <source> Failed </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">904,905</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.created" datatype="html">
+        <source>Created <x id="INTERPOLATION" equiv-text="{{ backup.created_at| date: &apos;d MMM. y&apos;
+                        }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">919,921</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.noBackups" datatype="html">
+        <source> No backups </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">941,942</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.createFirstBackup" datatype="html">
+        <source> Create your first backup to safeguard your data </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">944,945</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.createBackup" datatype="html">
+        <source>Create Backup</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">950,952</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.map" datatype="html">
+        <source>Map</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.title" datatype="html">
+        <source>Trips</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">13,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.trip" datatype="html">
+        <source>Trip</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">36,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.days" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {day} =1 {day} other {days}}</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">69,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.noTrips" datatype="html">
+        <source> No trips yet </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">94,97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.createFirst" datatype="html">
+        <source>Create your first Trip</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.invitations" datatype="html">
+        <source>Invitations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.invitedMessage" datatype="html">
+        <source>On <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-medium text-surface-600 dark:text-surface-300&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ inv.invited_at | date: &apos;short&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, <x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;font-medium text-surface-700 dark:text-surface-200&quot;&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ inv.invited_by }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> invited you to collaborate.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">134,135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.noPendingInvitations" datatype="html">
+        <source> No pending invitations. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">153,157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.createTrip" datatype="html">
+        <source>Create Trip</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.ts</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

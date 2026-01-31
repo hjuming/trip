@@ -6,11 +6,11 @@
         <div class="w-6 h-6 rounded-lg flex items-center justify-center flex-none">
           <i class="pi pi-map text-xs"></i>
         </div>
-        <span class="hidden sm:inline text-sm font-semibold text-gray-900 dark:text-white">Map</span>
+        <span i18n="@@trips.map" class="hidden sm:inline text-sm font-semibold text-gray-900 dark:text-white">Map</span>
       </div>
     </div>
 
-    <div class="text-sm font-semibold">Trips</div>
+    <div i18n="@@trips.title" class="text-sm font-semibold">Trips</div>
 
     <div
       class="inline-flex items-center gap-2 p-1.5 bg-white/70 dark:bg-surface-900/70 rounded-lg shadow-lg shadow-black/5">
@@ -33,7 +33,7 @@
         <div class="w-7 h-7 flex items-center justify-center">
           <i class="pi text-sm transition-transform duration-200 pi-plus text-gray-700 dark:text-gray-300"></i>
         </div>
-        <span class="hidden md:inline text-sm font-medium text-gray-900 dark:text-white">Trip</span>
+        <span i18n="@@trips.trip" class="hidden md:inline text-sm font-medium text-gray-900 dark:text-white">Trip</span>
       </button>
     </div>
   </div>
@@ -66,7 +66,7 @@
           <div class="absolute bottom-3 left-3 flex items-center gap-2">
             <span
               class="select-none rounded-lg bg-black/70 dark:bg-black/80 px-2 py-0.5 text-xs font-medium text-surface-50">{{
-              trip.days || 0 }} {{ trip.days > 1 ? 'days' : 'day' }}</span>
+              trip.days || 0 }} <ng-container i18n="@@trips.days">{trip.days, plural, =0 {day} =1 {day} other {days}}</ng-container></span>
           </div>
         </div>
 
@@ -90,11 +90,11 @@
         <i class="pi pi-map text-lg"></i>
       </div>
 
-      <h2 class="text-xl font-semibold tracking-tight text-surface-900 dark:text-surface-100 md:text-lg">
+      <h2 i18n="@@trips.noTrips" class="text-xl font-semibold tracking-tight text-surface-900 dark:text-surface-100 md:text-lg">
         No trips yet
       </h2>
 
-      <p-button class="mt-5" label="Create your first Trip" icon="pi pi-plus" (click)="addTrip()" severity="primary"
+      <p-button class="mt-5" i18n-label="@@trips.createFirst" label="Create your first Trip" icon="pi pi-plus" (click)="addTrip()" severity="primary"
         styleClass="!px-4 !py-2.5 text-sm font-medium! shadow-sm hover:shadow-md transition-shadow"></p-button>
     </div>
     }
@@ -114,7 +114,7 @@
   </div>
 </div>
 
-<p-dialog header="Invitations" [draggable]="false" [dismissableMask]="true" [modal]="true"
+<p-dialog i18n-header="@@trips.invitations" header="Invitations" [draggable]="false" [dismissableMask]="true" [modal]="true"
   [(visible)]="invitationsDialogVisible" styleClass="w-[95vw] md:w-[32rem] lg:w-[34rem]">
   <section class="max-h-[70vh] overflow-y-auto px-1 pb-2 pt-1 md:max-h-[600px]">
     <div class="divide-y divide-surface-100 dark:divide-surface-800">
@@ -131,15 +131,7 @@
             </div>
 
             <div class="text-xs text-surface-500 dark:text-surface-400 md:text-sm">
-              On
-              <span class="font-medium text-surface-600 dark:text-surface-300">
-                {{ inv.invited_at | date: 'short' }}
-              </span>
-              ,
-              <span class="font-medium text-surface-700 dark:text-surface-200">
-                {{ inv.invited_by }}
-              </span>
-              invited you to collaborate.
+              <ng-container i18n="@@trips.invitedMessage">On <span class="font-medium text-surface-600 dark:text-surface-300">{{ inv.invited_at | date: 'short' }}</span>, <span class="font-medium text-surface-700 dark:text-surface-200">{{ inv.invited_by }}</span> invited you to collaborate.</ng-container>
             </div>
 
             <div class="mt-2 flex justify-start gap-2 md:hidden">
@@ -157,7 +149,7 @@
         </div>
       </div>
       } @empty {
-      <div class="py-8 text-center text-sm text-surface-500 dark:text-surface-400">
+      <div i18n="@@trips.noPendingInvitations" class="py-8 text-center text-sm text-surface-500 dark:text-surface-400">
         No pending invitations.
       </div>
       }

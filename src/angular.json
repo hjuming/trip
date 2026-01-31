@@ -13,6 +13,15 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en",
+        "locales": {
+          "zh-Hant": {
+            "translation": "src/locale/messages.zh-Hant.xlf",
+            "baseHref": ""
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular/build:application",
@@ -23,10 +32,21 @@
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
+            "localize": true,
             "assets": [
               {
                 "glob": "**/*",
                 "input": "public"
+              },
+              {
+                "glob": "_redirects",
+                "input": "./",
+                "output": "/"
+              },
+              {
+                "glob": "_headers",
+                "input": "./",
+                "output": "/"
               }
             ],
             "styles": [
@@ -56,7 +76,11 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true
+              "sourceMap": true,
+              "localize": false
+            },
+            "zh-Hant": {
+              "localize": ["zh-Hant"]
             }
           },
           "defaultConfiguration": "production"
@@ -69,12 +93,19 @@
             },
             "development": {
               "buildTarget": "trip:build:development"
+            },
+            "zh-Hant": {
+              "buildTarget": "trip:build:zh-Hant"
             }
           },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {
-          "builder": "@angular/build:extract-i18n"
+          "builder": "@angular/build:extract-i18n",
+          "options": {
+            "format": "xlf",
+            "outputPath": "src/locale"
+          }
         },
         "test": {
           "builder": "@angular/build:karma",

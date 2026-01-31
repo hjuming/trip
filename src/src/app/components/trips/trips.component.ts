@@ -11,6 +11,8 @@ import { DatePipe } from '@angular/common';
 import { DialogModule } from 'primeng/dialog';
 import { daterangeToTripDays } from '../../shared/utils';
 
+declare const $localize: any;
+
 @Component({
   selector: 'app-trips',
   standalone: true,
@@ -58,7 +60,7 @@ export class TripsComponent implements OnInit {
 
   addTrip() {
     const modal: DynamicDialogRef = this.dialogService.open(TripCreateModalComponent, {
-      header: 'Create Trip',
+      header: $localize`:@@trips.createTrip:Create Trip`,
       modal: true,
       appendTo: 'body',
       closable: true,

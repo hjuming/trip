@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "serve": "/en/index.html",
+      "status": 302
+    }
+  ],
+  "navigateFallback": {
+    "rewrite": "/en/index.html",
+    "exclude": ["/zh-Hant/*"]
+  }
+}

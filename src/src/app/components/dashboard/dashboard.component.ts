@@ -65,6 +65,7 @@ import { MenuItem, SelectItemGroup } from 'primeng/api';
 import { YesNoModalComponent } from '../../modals/yes-no-modal/yes-no-modal.component';
 import { CategoryCreateModalComponent } from '../../modals/category-create-modal/category-create-modal.component';
 import { AuthService } from '../../services/auth.service';
+import { LanguageService } from '../../services/language.service';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { PlaceGPXComponent } from '../../shared/place-gpx/place-gpx.component';
 import { CommonModule, Location } from '@angular/common';
@@ -127,6 +128,7 @@ export class DashboardComponent implements OnInit, AfterViewInit {
 
   apiService: ApiService;
   authService: AuthService;
+  languageService: LanguageService;
   utilsService: UtilsService;
   dialogService: DialogService;
   router: Router;
@@ -278,6 +280,7 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   constructor() {
     this.apiService = inject(ApiService);
     this.authService = inject(AuthService);
+    this.languageService = inject(LanguageService);
     this.utilsService = inject(UtilsService);
     this.dialogService = inject(DialogService);
     this.router = inject(Router);

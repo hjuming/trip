@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="zh-Hant" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="dashboard.trips" datatype="html">
+        <source>Trips</source>
+        <target>行程</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">27,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.places" datatype="html">
+        <source>Places</source>
+        <target>地點</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">46,49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">218,220</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.filters" datatype="html">
+        <source>Filters</source>
+        <target>篩選</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">59,62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">110,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.centerOnMyLocation" datatype="html">
+        <source>Center on my location</source>
+        <target>定位到我的位置</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">64,65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.place" datatype="html">
+        <source>Place</source>
+        <target>地點</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">96,98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.quickFilters" datatype="html">
+        <source>Quick Filters</source>
+        <target>快速篩選</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">118,120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.visited" datatype="html">
+        <source>Visited</source>
+        <target>已造訪</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">129,132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.dogFriendly" datatype="html">
+        <source>Dog-friendly</source>
+        <target>友善寵物</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">140,143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.favorites" datatype="html">
+        <source>Favorites</source>
+        <target>我的最愛</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">151,154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.toilets" datatype="html">
+        <source>Toilets</source>
+        <target>廁所</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">162,164</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.categories" datatype="html">
+        <source>Categories</source>
+        <target>分類</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">167,169</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">352,354</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.deselectAll" datatype="html">
+        <source>Deselect all</source>
+        <target>全部取消</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">170,171</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.selectAll" datatype="html">
+        <source>Select all</source>
+        <target>全部選取</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.showOutOfBounds" datatype="html">
+        <source>Show out-of-bounds places</source>
+        <target>顯示範圍外的地點</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">226,227</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.search" datatype="html">
+        <source>Search...</source>
+        <target>搜尋...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">248,249</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.countryCity" datatype="html">
+        <source>Country, City, ...</source>
+        <target>國家、城市...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">260,261</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.clearAndCancel" datatype="html">
+        <source>Clear and Cancel</source>
+        <target>清除並取消</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">264,265</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.filterUsingLocation" datatype="html">
+        <source>Filter using location (GMaps API)</source>
+        <target>使用位置篩選（Google 地圖 API）</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">267,268</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.nothingToSee" datatype="html">
+        <source>Nothing to see</source>
+        <target>沒有任何內容</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">304,307</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.settings" datatype="html">
+        <source>Settings</source>
+        <target>設定</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">327,328</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.customizeExperience" datatype="html">
+        <source>Customize your experience</source>
+        <target>自訂您的使用體驗</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">328,331</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.darkMode" datatype="html">
+        <source>Dark mode</source>
+        <target>深色模式</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">332,333</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.language" datatype="html">
+        <source>Language</source>
+        <target>語言</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">334,335</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.openGithub" datatype="html">
+        <source>Open Github</source>
+        <target>開啟 Github</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">336</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.logout" datatype="html">
+        <source>Logout</source>
+        <target>登出</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">337</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.about" datatype="html">
+        <source>About</source>
+        <target>關於</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">343,345</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.account" datatype="html">
+        <source>Account</source>
+        <target>帳號</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">346,348</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.preferences" datatype="html">
+        <source>Preferences</source>
+        <target>偏好設定</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">349,351</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.data" datatype="html">
+        <source>Data</source>
+        <target>資料</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">355,357</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">424,425</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.documentation" datatype="html">
+        <source>Documentation</source>
+        <target>使用說明</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">366,367</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.learnHowToUse" datatype="html">
+        <source>Learn how to use TRIP</source>
+        <target>了解如何使用 TRIP</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">367,369</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.supportTrip" datatype="html">
+        <source>Support TRIP</source>
+        <target>支持 TRIP</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">380,381</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.buyMeCoffee" datatype="html">
+        <source>Buy me a coffee</source>
+        <target>請我喝杯咖啡</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">381,383</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.newVersion" datatype="html">
+        <source>New version available</source>
+        <target>有新版本可用</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">396,398</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.checkUpdate" datatype="html">
+        <source>Check update</source>
+        <target>檢查更新</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">409,410</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.current" datatype="html">
+        <source>Current: TRIP <x id="INTERPOLATION" equiv-text="{{ info()?.version }}"/></source>
+        <target>目前版本：TRIP <x id="INTERPOLATION" equiv-text="{{ info()?.version }}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">410</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.manageData" datatype="html">
+        <source>Manage your data</source>
+        <target>管理您的資料</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">425,427</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.security" datatype="html">
+        <source>Security</source>
+        <target>安全性</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">450,451</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.updatePassword2FA" datatype="html">
+        <source>Update your password, manage 2FA</source>
+        <target>更新密碼、管理雙重驗證</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">451,453</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.password" datatype="html">
+        <source>Password</source>
+        <target>密碼</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">465,466</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.updateYourPassword" datatype="html">
+        <source>Update your password</source>
+        <target>更新您的密碼</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">466,468</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.update" datatype="html">
+        <source>Update</source>
+        <target>更新</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">471,472</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.twoFactorAuth" datatype="html">
+        <source>Two-Factor Auth (2FA)</source>
+        <target>雙重驗證（2FA）</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">480,482</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.addExtraSecurity" datatype="html">
+        <source>Add extra security layer </source>
+        <target>增加額外的安全層</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">482,484</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.integrations" datatype="html">
+        <source>Integrations </source>
+        <target>整合</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">506,508</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.manageApiKeys" datatype="html">
+        <source>Manage API keys</source>
+        <target>管理 API 金鑰</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">508,510</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.googleApiKey" datatype="html">
+        <source>Google API Key</source>
+        <target>Google API 金鑰</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">523,524</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.connectGoogleApi" datatype="html">
+        <source>Connect your Google API key for enhanced location services</source>
+        <target>連接您的 Google API 金鑰以獲得更好的位置服務</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">524,526</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.remove" datatype="html">
+        <source>Remove</source>
+        <target>移除</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">531,532</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.tripApiKey" datatype="html">
+        <source>TRIP API Key</source>
+        <target>TRIP API 金鑰</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">550,551</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.useToAuthenticate" datatype="html">
+        <source>Use it to authenticate in scripts</source>
+        <target>用於腳本驗證</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">551,553</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.mapParameters" datatype="html">
+        <source>Map Parameters</source>
+        <target>地圖參數</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">580,581</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.configureMap" datatype="html">
+        <source>Configure default map view and tile layers </source>
+        <target>設定預設地圖視圖與圖層</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">581,583</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.setCurrent" datatype="html">
+        <source>Set Current</source>
+        <target>設為目前位置</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">592,593</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.defaultLatitude" datatype="html">
+        <source>Default Latitude</source>
+        <target>預設緯度</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">599,600</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.defaultLongitude" datatype="html">
+        <source>Default Longitude</source>
+        <target>預設經度</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">604,605</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.tileLayerUrl" datatype="html">
+        <source>Tile Layer URL</source>
+        <target>圖磚圖層網址</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">609,610</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.displayPerformance" datatype="html">
+        <source>Display &amp; Performance</source>
+        <target>顯示與效能</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">626,628</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.visualPerformance" datatype="html">
+        <source>Visual and performance options</source>
+        <target>視覺與效能選項</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">628,630</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.lowNetworkMode" datatype="html">
+        <source>Low Network Mode</source>
+        <target>低網路模式</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">642,644</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.useCategoryImages" datatype="html">
+        <source>Use category images to reduce bandwidth</source>
+        <target>使用分類圖片以減少頻寬</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">644,646</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.gpxIndicator" datatype="html">
+        <source>GPX Indicator</source>
+        <target>GPX 指示器</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">656,657</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.showCompass" datatype="html">
+        <source>Show compass when GPX data available</source>
+        <target>當有 GPX 資料時顯示指南針</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">657,659</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.showVisitedPlaces" datatype="html">
+        <source>Show Visited Places</source>
+        <target>顯示已造訪地點</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">670,672</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.alwaysDisplayVisited" datatype="html">
+        <source>Always display visited places as small dots</source>
+        <target>始終將已造訪地點顯示為小圓點</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">672,674</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.storeMapPosition" datatype="html">
+        <source>Store Map Position</source>
+        <target>儲存地圖位置</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">685,687</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.encodeMapPosition" datatype="html">
+        <source>Encode map position in the URL to restore the same view on refresh</source>
+        <target>將地圖位置編碼到網址中，重新整理時恢復相同視圖</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">687,689</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.dataFilters" datatype="html">
+        <source>Data &amp; Filters</source>
+        <target>資料與篩選</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">708,709</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.manageCurrency" datatype="html">
+        <source>Manage currency and category visibility </source>
+        <target>管理貨幣與分類顯示</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">709,711</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.currency" datatype="html">
+        <source>Currency</source>
+        <target>貨幣</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">724,725</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.updateDefaultCurrency" datatype="html">
+        <source>Update the default currency </source>
+        <target>更新預設貨幣</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">725,727</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.hiddenCategories" datatype="html">
+        <source>Hidden Categories</source>
+        <target>隱藏的分類</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">741,742</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.selectedHidden" datatype="html">
+        <source>Selected will be hidden by default </source>
+        <target>選取的項目將預設隱藏</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">742,744</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.select" datatype="html">
+        <source>Select...</source>
+        <target>選擇...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">750</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.noChanges" datatype="html">
+        <source>No changes to save</source>
+        <target>沒有要儲存的變更</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">764,765</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.fixValidation" datatype="html">
+        <source>Please fix validation errors</source>
+        <target>請修正驗證錯誤</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">766,767</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.unsavedChanges" datatype="html">
+        <source>You have unsaved changes</source>
+        <target>您有未儲存的變更</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">768,770</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.addCategory" datatype="html">
+        <source> Add Category </source>
+        <target>新增分類</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">796,797</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.editCategory" datatype="html">
+        <source>Edit category</source>
+        <target>編輯分類</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">823,824</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.deleteCategory" datatype="html">
+        <source>Delete category</source>
+        <target>刪除分類</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">825,826</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.backups" datatype="html">
+        <source>Backups</source>
+        <target>備份</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">845,846</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.exportData" datatype="html">
+        <source>Export your data</source>
+        <target>匯出您的資料</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">846,848</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.create" datatype="html">
+        <source>Create</source>
+        <target>建立</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">854</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.processing" datatype="html">
+        <source> Processing </source>
+        <target>處理中</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">892,893</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.starting" datatype="html">
+        <source> Starting </source>
+        <target>啟動中</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">897,898</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.failed" datatype="html">
+        <source> Failed </source>
+        <target>失敗</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">902,903</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.created" datatype="html">
+        <source>Created <x id="INTERPOLATION" equiv-text="{{ backup.created_at| date: &apos;d MMM. y&apos;
+                        }}"/></source>
+        <target>建立於 <x id="INTERPOLATION" equiv-text="{{ backup.created_at| date: &apos;d MMM. y&apos;
+                        }}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">917,919</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.noBackups" datatype="html">
+        <source> No backups </source>
+        <target>沒有備份</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">939,940</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.createFirstBackup" datatype="html">
+        <source> Create your first backup to safeguard your data </source>
+        <target>建立您的第一個備份以保護資料</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">942,943</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dashboard.createBackup" datatype="html">
+        <source>Create Backup</source>
+        <target>建立備份</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">948,950</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.map" datatype="html">
+        <source>Map</source>
+        <target>地圖</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.title" datatype="html">
+        <source>Trips</source>
+        <target>行程</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">13,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.trip" datatype="html">
+        <source>Trip</source>
+        <target>行程</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">36,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.days" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {day} =1 {day} other {days}}</source>
+        <target>{VAR_PLURAL, plural, =0 {天} =1 {天} other {天}}</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">69,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.noTrips" datatype="html">
+        <source> No trips yet </source>
+        <target>尚無任何行程</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">94,97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.createFirst" datatype="html">
+        <source>Create your first Trip</source>
+        <target>建立您的第一個行程</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.invitations" datatype="html">
+        <source>Invitations</source>
+        <target>邀請</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.invitedMessage" datatype="html">
+        <source>On <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-medium text-surface-600 dark:text-surface-300&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ inv.invited_at | date: &apos;short&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>, <x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;font-medium text-surface-700 dark:text-surface-200&quot;&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ inv.invited_by }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> invited you to collaborate.</source>
+        <target>在 <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-medium text-surface-600 dark:text-surface-300&quot;&gt;"/><x id="INTERPOLATION" equiv-text="{{ inv.invited_at | date: &apos;short&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>，<x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;font-medium text-surface-700 dark:text-surface-200&quot;&gt;"/><x id="INTERPOLATION_1" equiv-text="{{ inv.invited_by }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> 邀請您協作。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">134,135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.noPendingInvitations" datatype="html">
+        <source> No pending invitations. </source>
+        <target>沒有待處理的邀請。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.html</context>
+          <context context-type="linenumber">153,157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="trips.createTrip" datatype="html">
+        <source>Create Trip</source>
+        <target>建立行程</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/trips/trips.component.ts</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
