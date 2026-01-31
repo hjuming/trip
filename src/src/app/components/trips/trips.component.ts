@@ -60,7 +60,7 @@ export class TripsComponent implements OnInit {
 
   addTrip() {
     const modal: DynamicDialogRef = this.dialogService.open(TripCreateModalComponent, {
-      header: $localize`:@@trips.createTrip:Create Trip`,
+      header: '建立行程',
       modal: true,
       appendTo: 'body',
       closable: true,

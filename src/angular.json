@@ -13,15 +13,6 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
-      "i18n": {
-        "sourceLocale": "en",
-        "locales": {
-          "zh-Hant": {
-            "translation": "src/locale/messages.zh-Hant.xlf",
-            "baseHref": "/zh-Hant/"
-          }
-        }
-      },
       "architect": {
         "build": {
           "builder": "@angular/build:application",
@@ -32,21 +23,10 @@
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "localize": true,
             "assets": [
               {
                 "glob": "**/*",
                 "input": "public"
-              },
-              {
-                "glob": "_redirects",
-                "input": "src",
-                "output": "/"
-              },
-              {
-                "glob": "_headers",
-                "input": "src",
-                "output": "/"
               }
             ],
             "styles": [
@@ -76,11 +56,7 @@
             "development": {
               "optimization": false,
               "extractLicenses": false,
-              "sourceMap": true,
-              "localize": false
-            },
-            "zh-Hant": {
-              "localize": ["zh-Hant"]
+              "sourceMap": true
             }
           },
           "defaultConfiguration": "production"
