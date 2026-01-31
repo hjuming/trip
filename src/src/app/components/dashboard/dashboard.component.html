@@ -107,7 +107,7 @@
   <div animate.enter="slide-y-no-opacity" animate.leave="a-slide-y" class="pointer-events-auto ring-1 ring-black/5 dark:ring-white/10 bg-white/70 dark:bg-surface-900/70 backdrop-blur-xl
   rounded-lg w-full shadow-2xl overflow-hidden flex flex-col" [class.h-1/3]="viewPlacesList()">
     <div class="flex items-center justify-between gap-4 p-4 border-b border-gray-200 dark:border-gray-800">
-      <h2 i18n="@@dashboard.filters" class="text-base font-semibold text-gray-900 dark:text-white">Filters</h2>
+      <h2 class="text-base font-semibold text-gray-900 dark:text-white">篩選</h2>
       <div class="flex gap-2">
         <p-button text icon="pi pi-refresh" severity="danger" (click)="resetFilters()" />
         <p-button text icon="pi pi-times" severity="danger" (click)="toggleFilters()" />
@@ -115,7 +115,7 @@
     </div>
 
     <div class="flex-1 overflow-y-auto overscroll-contain px-4 space-y-3">
-      <h3 i18n="@@dashboard.quickFilters" class="mt-6 text-sm font-bold text-gray-900 dark:text-white">Quick Filters</h3>
+      <h3 class="mt-6 text-sm font-bold text-gray-900 dark:text-white">快速篩選</h3>
 
       <div class="grid grid-cols-2 md:grid-cols-3 gap-2">
         <button (click)="filter_display_visited.set(!filter_display_visited())"
@@ -126,7 +126,7 @@
           } @else {
           <i class="pi pi-eye text-xs"></i>
           }
-          <span i18n="@@dashboard.visited" class="truncate">Visited</span>
+          <span class="truncate">已造訪</span>
         </button>
 
         <button (click)="filter_dog_only.set(!filter_dog_only())"
@@ -137,7 +137,7 @@
           } @else {
           <span>🐶</span>
           }
-          <span i18n="@@dashboard.dogFriendly" class="truncate">Dog-friendly</span>
+          <span class="truncate">寵物友善</span>
         </button>
 
         <button (click)="filter_display_favorite_only.set(!filter_display_favorite_only())"
@@ -148,7 +148,7 @@
           } @else {
           <i class="pi pi-heart-fill text-xs"></i>
           }
-          <span i18n="@@dashboard.favorites" class="truncate">Favorites</span>
+          <span class="truncate">我的最愛</span>
         </button>
 
         <button (click)="filter_display_restroom.set(!filter_display_restroom())"
@@ -159,17 +159,17 @@
           } @else {
           <span>🚽</span>
           }
-          <span i18n="@@dashboard.toilets" class="truncate">Toilets</span>
+          <span class="truncate">洗手間</span>
         </button>
       </div>
 
       <div class="mt-6 flex items-center justify-between">
-        <h3 i18n="@@dashboard.categories" class="text-sm font-bold text-gray-900 dark:text-white">Categories</h3>
+        <h3 class="text-sm font-bold text-gray-900 dark:text-white">分類</h3>
 
         <div class="flex items-center justify-end gap-1">
-          <p-button i18n-pTooltip="@@dashboard.deselectAll" icon="pi pi-minus-circle" pTooltip="Deselect all" (click)="deselectAllCategories()"
+          <p-button pTooltip="取消全選" icon="pi pi-minus-circle" (click)="deselectAllCategories()"
             severity="danger" size="small" text />
-          <p-button i18n-pTooltip="@@dashboard.selectAll" icon="pi pi-check-circle" pTooltip="Select all" (click)="selectAllCategories()" severity="success"
+          <p-button pTooltip="全選" icon="pi pi-check-circle" (click)="selectAllCategories()" severity="success"
             size="small" text />
           <span [class.bg-red-400]="!activeCategories().size"
             class="px-2.5 py-1 bg-gray-100 dark:bg-gray-900 rounded-lg text-xs font-bold text-gray-900 dark:text-white">
@@ -215,7 +215,7 @@
       <div class="p-4 border-b border-gray-200 dark:border-gray-800">
         <div class="flex items-center justify-between gap-4">
           <div class="flex items-center gap-2 min-w-0">
-            <h2 i18n="@@dashboard.places" class="text-base font-semibold text-gray-900 dark:text-white">Places</h2>
+            <h2 class="text-base font-semibold text-gray-900 dark:text-white">地點</h2>
             <span
               class="px-2.5 py-1 bg-blue-100 dark:bg-blue-900 rounded-lg text-xs font-bold text-blue-900 dark:text-white border-dashed"
               [class]="hideOutOfBoundsPlaces() ? 'border-2 border-blue-400' : undefined">{{ visiblePlaces().length
@@ -223,7 +223,7 @@
           </div>
 
           <div class="flex items-center gap-2">
-            <button i18n-pTooltip="@@dashboard.showOutOfBounds" (click)="toggleOutOfBoundsPlaces()" pTooltip="Show out-of-bounds places" tooltipPosition="left"
+            <button pTooltip="顯示範圍外的地點" (click)="toggleOutOfBoundsPlaces()" tooltipPosition="left"
               class="cursor-pointer flex items-center justify-center size-10 rounded-lg transition-all"
               [class]="hideOutOfBoundsPlaces() ? 'bg-blue-50 dark:bg-blue-950' : 'hover:bg-gray-100 dark:hover:bg-gray-900'">
               <i class="pi pi-expand text-sm"
@@ -245,7 +245,7 @@
         <div class="grid md:grid-cols-2 gap-2 mt-3" animate.enter="slide-y" animate.leave="a-slide-y">
           <div class="relative">
             <i class="pi pi-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xs"></i>
-            <input i18n-placeholder="@@dashboard.search" type="text" [formControl]="searchInput" placeholder="Search..."
+            <input type="text" [formControl]="searchInput" placeholder="搜尋..."
               class="w-full h-9 pl-9 pr-3 bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800 rounded-lg text-sm text-gray-900 dark:text-white placeholder:text-gray-400 focus:outline-none focus:border-blue-500 dark:focus:border-blue-400 transition-colors" />
             @if (searchInput.value) {
             <div class="absolute right-2 top-1/2 -translate-y-1/2">
@@ -256,14 +256,14 @@
 
           <div class="relative">
             <i class="pi pi-google absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-xs"></i>
-            <input i18n-placeholder="@@dashboard.countryCity" type="text" [formControl]="gmapsGeocodeFilterInput" (keydown.enter)="gmapsGeocodeFilter()"
-              placeholder="Country, City, ..."
+            <input type="text" [formControl]="gmapsGeocodeFilterInput" (keydown.enter)="gmapsGeocodeFilter()"
+              placeholder="國家、城市..."
               class="w-full h-9 pl-9 pr-3 bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800 rounded-lg text-sm text-gray-900 dark:text-white placeholder:text-gray-400 focus:outline-none focus:border-blue-500 dark:focus:border-blue-400 transition-colors" />
 
-            @if (boundariesFiltering()) {<p-button i18n-pTooltip="@@dashboard.clearAndCancel" icon="pi pi-times" text severity="danger" size="small"
+            @if (boundariesFiltering()) {<p-button pTooltip="清除並取消" icon="pi pi-times" text severity="danger" size="small"
               class="absolute right-2 top-1/2 -translate-y-1/2" pTooltip="Clear and Cancel"
               (click)="resetGeocodeFilters()" />}
-            @else {<p-button i18n-pTooltip="@@dashboard.filterUsingLocation" icon="pi pi-sparkles" text [disabled]="!gmapsGeocodeFilterInput.value" size="small"
+            @else {<p-button pTooltip="使用位置篩選（GMaps API）" icon="pi pi-sparkles" text [disabled]="!gmapsGeocodeFilterInput.value" size="small"
               class="absolute right-2 top-1/2 -translate-y-1/2" pTooltip="Filter using location (GMaps API)"
               tooltipPosition="left" (click)="gmapsGeocodeFilter()" />}
           </div>
@@ -301,7 +301,7 @@
           } @empty {
           <div class="flex flex-col items-center justify-center col-span-full py-12 text-center px-6">
             <i class="pi pi-map-marker text-gray-300 dark:text-gray-700 mb-3" style="font-size: 24px"></i>
-            <h3 i18n="@@dashboard.nothingToSee" class="text-sm font-semibold text-gray-900 dark:text-white">Nothing to see</h3>
+            <h3 class="text-sm font-semibold text-gray-900 dark:text-white">沒有資料</h3>
           </div>
           }
           } @placeholder (minimum 0.4s) {
@@ -324,17 +324,17 @@
     class="w-10/12 max-w-screen md:max-w-3xl h-fit max-h-screen bg-white rounded-xl shadow-2xl p-4 md:p-8 z-50 dark:bg-surface-900">
     <div class="flex-none flex items-center justify-between gap-4 p-4 border-b border-gray-200 dark:border-gray-800">
       <div>
-        <h2 i18n="@@dashboard.settings" class="text-xl font-bold text-gray-900 dark:text-white">Settings</h2>
-        <p i18n="@@dashboard.customizeExperience" class="text-xs text-gray-600 dark:text-gray-400 mt-0.5">Customize your experience</p>
+        <h2 class="text-xl font-bold text-gray-900 dark:text-white">設定</h2>
+        <p class="text-xs text-gray-600 dark:text-gray-400 mt-0.5">自訂您的使用體驗</p>
       </div>
 
       <div class="flex items-center gap-1">
-        <p-button i18n-pTooltip="@@dashboard.darkMode" (click)="toggleDarkMode()" pTooltip="Dark mode" text
+        <p-button pTooltip="深色模式" (click)="toggleDarkMode()" text
           [icon]="settings()?.mode_dark ? 'pi pi-sun' : 'pi pi-moon'" />
-        <p-button i18n-pTooltip="@@dashboard.language" pTooltip="Language" text severity="secondary"
+        <p-button pTooltip="語言" text severity="secondary"
           icon="pi pi-globe" (click)="languageService.switchLanguage(languageService.currentLocale === 'en' ? 'zh-Hant' : 'en')" />
-        <p-button i18n-pTooltip="@@dashboard.openGithub" (click)="toGithub()" pTooltip="Open Github" text severity="primary" icon="pi pi-github" />
-        <p-button i18n-pTooltip="@@dashboard.logout" (click)="logout()" pTooltip="Logout" text severity="primary" icon="pi pi-sign-out" />
+        <p-button pTooltip="開啟 Github" (click)="toGithub()" text severity="primary" icon="pi pi-github" />
+        <p-button pTooltip="登出" (click)="logout()" text severity="primary" icon="pi pi-sign-out" />
         <p-button (click)="toggleSettings()" text severity="danger" icon="pi pi-times" />
       </div>
     </div>
@@ -342,19 +342,19 @@
     <p-tabs [(value)]="tabsIndex" scrollable>
       <p-tablist>
         <p-tab [value]="0" class="flex items-center gap-2">
-          <i class="pi pi-info-circle"></i><span i18n="@@dashboard.about" class="font-bold whitespace-nowrap">About</span>
+          <i class="pi pi-info-circle"></i><span class="font-bold whitespace-nowrap">關於</span>
         </p-tab>
         <p-tab [value]="1" class="flex items-center gap-2">
-          <i class="pi pi-shield"></i><span i18n="@@dashboard.account" class="font-bold whitespace-nowrap">Account</span>
+          <i class="pi pi-shield"></i><span class="font-bold whitespace-nowrap">帳號</span>
         </p-tab>
         <p-tab [value]="2" class="flex items-center gap-2">
-          <i class="pi pi-sliders-v"></i><span i18n="@@dashboard.preferences" class="font-bold whitespace-nowrap">Preferences</span>
+          <i class="pi pi-sliders-v"></i><span class="font-bold whitespace-nowrap">偏好設定</span>
         </p-tab>
         <p-tab [value]="3" class="flex items-center gap-2">
-          <i class="pi pi-th-large"></i><span i18n="@@dashboard.categories" class="font-bold whitespace-nowrap">Categories</span>
+          <i class="pi pi-th-large"></i><span class="font-bold whitespace-nowrap">分類</span>
         </p-tab>
         <p-tab [value]="4" class="flex items-center gap-2">
-          <i class="pi pi-database"></i><span i18n="@@dashboard.data" class="font-bold whitespace-nowrap">Data</span>
+          <i class="pi pi-database"></i><span class="font-bold whitespace-nowrap">資料</span>
         </p-tab>
       </p-tablist>
       <p-tabpanels>
@@ -365,8 +365,8 @@
               <div class="flex gap-4 items-center relative z-10">
                 <div class="text-4xl">📘</div>
                 <div>
-                  <h3 i18n="@@dashboard.documentation" class="text-lg font-semibold text-gray-900 dark:text-white mb-1">Documentation</h3>
-                  <p i18n="@@dashboard.learnHowToUse" class="text-sm text-gray-600 dark:text-gray-400">Learn how to use TRIP</p>
+                  <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-1">文件</h3>
+                  <p class="text-sm text-gray-600 dark:text-gray-400">學習如何使用 TRIP</p>
                 </div>
               </div>
               <div
@@ -379,8 +379,8 @@
               <div class="flex gap-4 items-center relative z-10">
                 <div class="text-4xl">☕</div>
                 <div>
-                  <h3 i18n="@@dashboard.supportTrip" class="text-lg font-semibold text-gray-900 dark:text-white mb-1">Support TRIP</h3>
-                  <p i18n="@@dashboard.buyMeCoffee" class="text-sm text-gray-600 dark:text-gray-400">Buy me a coffee</p>
+                  <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-1">支持 TRIP</h3>
+                  <p class="text-sm text-gray-600 dark:text-gray-400">請我喝杯咖啡</p>
                 </div>
               </div>
               <div
@@ -395,7 +395,7 @@
                 <div class="text-4xl">🚀</div>
                 <div>
                   <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-1">TRIP {{ info()?.update }}</h3>
-                  <p i18n="@@dashboard.newVersion" class="text-sm text-gray-600 dark:text-gray-400">New version available</p>
+                  <p class="text-sm text-gray-600 dark:text-gray-400">有新版本可用</p>
                 </div>
               </div>
               <div
@@ -408,8 +408,8 @@
               <div class="flex gap-4 items-center relative z-10">
                 <div class="text-4xl">👀</div>
                 <div>
-                  <h3 i18n="@@dashboard.checkUpdate" class="text-lg font-semibold text-gray-900 dark:text-white mb-1">Check update</h3>
-                  <p class="text-sm text-gray-600 dark:text-gray-400"><ng-container i18n="@@dashboard.current">Current: TRIP {{ info()?.version }}</ng-container></p>
+                  <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-1">檢查更新</h3>
+                  <p class="text-sm text-gray-600 dark:text-gray-400"><ng-container>目前版本：TRIP {{ info()?.version }}</ng-container></p>
                 </div>
               </div>
               <div
@@ -423,8 +423,8 @@
               <div class="flex gap-4 items-center relative z-10">
                 <div class="text-4xl">🗃️</div>
                 <div>
-                  <h3 i18n="@@dashboard.data" class="text-lg font-semibold text-gray-900 dark:text-white mb-1">Data</h3>
-                  <p i18n="@@dashboard.manageData" class="text-sm text-gray-600 dark:text-gray-400">Manage your data</p>
+                  <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-1">資料</h3>
+                  <p class="text-sm text-gray-600 dark:text-gray-400">管理您的資料</p>
                 </div>
               </div>
               <div
@@ -449,8 +449,8 @@
                       <i class="pi pi-shield text-gray-600 dark:text-gray-400"></i>
                     </div>
                     <div class="flex flex-col items-start">
-                      <h2 i18n="@@dashboard.security" class="text-base font-semibold text-gray-900 dark:text-gray-100 line-clamp-1">Security</h2>
-                      <p i18n="@@dashboard.updatePassword2FA" class="text-xs text-gray-500 dark:text-gray-400">Update your password, manage 2FA</p>
+                      <h2 class="text-base font-semibold text-gray-900 dark:text-gray-100 line-clamp-1">安全性</h2>
+                      <p class="text-xs text-gray-500 dark:text-gray-400">更新密碼、管理雙因素驗證</p>
                     </div>
                   </div>
                   <i [class]="accountSecurityExpanded() ? 'pi pi-chevron-up' : 'pi pi-chevron-down'"
@@ -464,13 +464,13 @@
                     <div class="flex items-center gap-3 min-w-0 flex-1">
                       <i class="pi pi-key text-blue-600 dark:text-blue-400 flex-shrink-0"></i>
                       <div class="min-w-0">
-                        <span i18n="@@dashboard.password" class="font-medium text-sm text-gray-900 dark:text-gray-100 block">Password</span>
-                        <p i18n="@@dashboard.updateYourPassword" class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">Update your password</p>
+                        <span class="font-medium text-sm text-gray-900 dark:text-gray-100 block">密碼</span>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">更新您的密碼</p>
                       </div>
                     </div>
 
-                    <p-button i18n-label="@@dashboard.update" icon="pi pi-pencil" (click)="updatePassword()" severity="secondary" size="small"
-                      label="Update" text />
+                    <p-button label="更新" icon="pi pi-pencil" (click)="updatePassword()" severity="secondary" size="small"
+                      text />
                   </div>
 
                   <div
@@ -479,17 +479,14 @@
                       <i class="pi pi-lock flex-shrink-0"
                         [class]="settings()?.totp_enabled ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'"></i>
                       <div class="min-w-0">
-                        <span i18n="@@dashboard.twoFactorAuth" class="font-medium text-sm text-gray-900 dark:text-gray-100 block">Two-Factor Auth
-                          (2FA)</span>
-                        <p i18n="@@dashboard.addExtraSecurity" class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">Add extra security layer
-                        </p>
+                        <span class="font-medium text-sm text-gray-900 dark:text-gray-100 block">雙因素驗證 (2FA)</span>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">增加額外的安全層級</p>
                       </div>
                     </div>
 
                     <p-button [icon]="settings()?.totp_enabled ? 'pi pi-times-circle' : 'pi pi-check-circle'"
                       (click)="toggleTOTP()" [severity]="settings()?.totp_enabled ? 'danger' : 'success'" size="small"
-                      i18n-label="@@dashboard.enableDisable"
-                      [label]="settings()?.totp_enabled ? 'Disable' : 'Enable'" text />
+                      [label]="settings()?.totp_enabled ? '停用' : '啟用'" text />
                   </div>
                 </div>
                 }
@@ -505,9 +502,8 @@
                       <i class="pi pi-share-alt text-blue-600 dark:text-blue-400"></i>
                     </div>
                     <div class="flex flex-col items-start">
-                      <h2 i18n="@@dashboard.integrations" class="text-base font-semibold text-gray-900 dark:text-gray-100 line-clamp-1">Integrations
-                      </h2>
-                      <p i18n="@@dashboard.manageApiKeys" class="text-xs text-gray-500 dark:text-gray-400">Manage API keys</p>
+                      <h2 class="text-base font-semibold text-gray-900 dark:text-gray-100 line-clamp-1">整合服務</h2>
+                      <p class="text-xs text-gray-500 dark:text-gray-400">管理 API 金鑰</p>
                     </div>
                   </div>
                   <i [class]="accountIntegrationsExpanded() ? 'pi pi-chevron-up' : 'pi pi-chevron-down'"
@@ -522,15 +518,13 @@
                       <i class="pi pi-link flex-shrink-0"
                         [class]="settings()?.google_apikey ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'"></i>
                       <div class="min-w-0">
-                        <span i18n="@@dashboard.googleApiKey" class="font-medium text-sm text-gray-900 dark:text-gray-100 block">Google API Key</span>
-                        <p i18n="@@dashboard.connectGoogleApi" class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">Connect your Google API
-                          key
-                          for enhanced location services</p>
+                        <span class="font-medium text-sm text-gray-900 dark:text-gray-100 block">Google API 金鑰</span>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">連結您的 Google API 金鑰</p>
                       </div>
                     </div>
 
                     @if (settings()?.google_apikey) {
-                    <p-button i18n-label="@@dashboard.remove" (click)="deleteGoogleApiKey()" icon="pi pi-trash" label="Remove" severity="danger" text
+                    <p-button label="移除" (click)="deleteGoogleApiKey()" icon="pi pi-trash" severity="danger" text
                       size="small" />
                     } @else {
                     <div [formGroup]="settingsForm" class="flex gap-2 w-40">
@@ -549,16 +543,15 @@
                       <i class="pi pi-link flex-shrink-0"
                         [class]="settings()?.api_token ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'"></i>
                       <div class="min-w-0">
-                        <span i18n="@@dashboard.tripApiKey" class="font-medium text-sm text-gray-900 dark:text-gray-100 block">TRIP API Key</span>
-                        <p i18n="@@dashboard.useToAuthenticate" class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">Use it to authenticate in
-                          scripts</p>
+                        <span class="font-medium text-sm text-gray-900 dark:text-gray-100 block">TRIP API 金鑰</span>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">用於腳本驗證</p>
                       </div>
                     </div>
 
                     <p-button [icon]="settings()?.api_token ? 'pi pi-times-circle' : 'pi pi-check-circle'"
                       (click)="toggleTripApiToken()" [severity]="settings()?.api_token ? 'danger' : 'success'"
-                      size="small" i18n-label="@@dashboard.enableDisable"
-                      [label]="settings()?.api_token ? 'Disable' : 'Enable'" text />
+                      size="small"
+                      [label]="settings()?.api_token ? '停用' : '啟用'" text />
                   </div>
                 </div>
                 }
@@ -579,9 +572,8 @@
                       <i class="pi pi-map text-blue-600 dark:text-blue-400"></i>
                     </div>
                     <div class="flex flex-col items-start">
-                      <h2 i18n="@@dashboard.mapParameters" class="text-lg font-semibold text-gray-900 dark:text-gray-100">Map Parameters</h2>
-                      <p i18n="@@dashboard.configureMap" class="text-xs text-gray-600 dark:text-gray-400">Configure default map view and tile layers
-                      </p>
+                      <h2 class="text-base font-semibold text-gray-900 dark:text-gray-100 line-clamp-1">地圖參數</h2>
+                      <p class="text-xs text-gray-600 dark:text-gray-400">設定預設地圖視圖和圖層</p>
                     </div>
                   </div>
                   <i [class]="mapParamsExpanded() ? 'pi pi-chevron-up' : 'pi pi-chevron-down'"
@@ -591,24 +583,24 @@
                 @if (mapParamsExpanded()) {
                 <div class="flex flex-col gap-4 p-4 border-t border-gray-200 dark:border-gray-700">
                   <div class="flex justify-end">
-                    <p-button i18n-label="@@dashboard.setCurrent" icon="pi pi-compass" label="Set Current" [outlined]="true"
+                    <p-button label="設為目前位置" icon="pi pi-compass" [outlined]="true"
                       (click)="setMapCenterToCurrent()" size="small" styleClass="whitespace-nowrap" />
                   </div>
 
                   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <p-floatlabel variant="in">
                       <input id="map_lat" formControlName="map_lat" pInputText fluid pSize="small" />
-                      <label i18n="@@dashboard.defaultLatitude" for="map_lat">Default Latitude</label>
+                      <label for="map_lat">預設緯度</label>
                     </p-floatlabel>
 
                     <p-floatlabel variant="in">
                       <input id="map_lng" formControlName="map_lng" pInputText fluid pSize="small" />
-                      <label i18n="@@dashboard.defaultLongitude" for="map_lng">Default Longitude</label>
+                      <label for="map_lng">預設經度</label>
                     </p-floatlabel>
 
                     <p-floatlabel variant="in" class="md:col-span-2">
                       <input id="tile_layer" formControlName="tile_layer" pInputText fluid pSize="small" />
-                      <label i18n="@@dashboard.tileLayerUrl" for="tile_layer">Tile Layer URL</label>
+                      <label for="tile_layer">圖層 URL</label>
                     </p-floatlabel>
                   </div>
                 </div>
@@ -625,9 +617,8 @@
                       <i class="pi pi-eye text-green-600 dark:text-green-400"></i>
                     </div>
                     <div class="flex flex-col items-start">
-                      <h2 i18n="@@dashboard.displayPerformance" class="text-base font-semibold text-gray-900 dark:text-gray-100 line-clamp-1">Display &
-                        Performance</h2>
-                      <p i18n="@@dashboard.visualPerformance" class="text-xs text-gray-500 dark:text-gray-400">Visual and performance options</p>
+                      <h2 class="text-base font-semibold text-gray-900 dark:text-gray-100 line-clamp-1">顯示與效能</h2>
+                      <p class="text-xs text-gray-500 dark:text-gray-400">視覺與效能選項</p>
                     </div>
                   </div>
                   <i [class]="displaySettingsExpanded() ? 'pi pi-chevron-up' : 'pi pi-chevron-down'"
@@ -641,10 +632,8 @@
                     <div class="flex items-center gap-3 min-w-0 flex-1">
                       <i class="pi pi-wifi text-orange-600 dark:text-orange-400 flex-shrink-0"></i>
                       <div class="min-w-0">
-                        <span i18n="@@dashboard.lowNetworkMode" class="font-medium text-sm text-gray-900 dark:text-gray-100 block">Low Network
-                          Mode</span>
-                        <p i18n="@@dashboard.useCategoryImages" class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">Use category images to
-                          reduce bandwidth</p>
+                        <span class="font-medium text-sm text-gray-900 dark:text-gray-100 block">低網速模式</span>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">使用分類圖示以減少頻寬使用</p>
                       </div>
                     </div>
                     <p-toggleswitch [(ngModel)]="isLowNetMode" (onChange)="toggleLowNet()" class="flex-shrink-0 ml-4" />
@@ -655,9 +644,8 @@
                     <div class="flex items-center gap-3 min-w-0 flex-1">
                       <i class="pi pi-compass text-purple-600 dark:text-purple-400 flex-shrink-0"></i>
                       <div class="min-w-0">
-                        <span i18n="@@dashboard.gpxIndicator" class="font-medium text-sm text-gray-900 dark:text-gray-100 block">GPX Indicator</span>
-                        <p i18n="@@dashboard.showCompass" class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">Show compass when GPX data
-                          available</p>
+                        <span class="font-medium text-sm text-gray-900 dark:text-gray-100 block">GPX 指示器</span>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">當有 GPX 資料時顯示指南針</p>
                       </div>
                     </div>
                     <p-toggleswitch [(ngModel)]="isGPXInPlaceMode" (onChange)="toggleGPXInPlace()"
@@ -669,10 +657,8 @@
                     <div class="flex items-center gap-3 min-w-0 flex-1">
                       <i class="pi pi-eye text-indigo-600 dark:text-indigo-400 flex-shrink-0"></i>
                       <div class="min-w-0">
-                        <span i18n="@@dashboard.showVisitedPlaces" class="font-medium text-sm text-gray-900 dark:text-gray-100 block">Show Visited
-                          Places</span>
-                        <p i18n="@@dashboard.alwaysDisplayVisited" class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">Always display visited
-                          places as small dots</p>
+                        <span class="font-medium text-sm text-gray-900 dark:text-gray-100 block">顯示已造訪地點</span>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">總是以小點顯示已造訪的地點</p>
                       </div>
                     </div>
                     <p-toggleswitch [(ngModel)]="isVisitedMode" (onChange)="toggleVisitedDisplayed()"
@@ -684,10 +670,8 @@
                     <div class="flex items-center gap-3 min-w-0 flex-1">
                       <i class="pi pi-map text-yellow-500 dark:text-yellow-300 flex-shrink-0"></i>
                       <div class="min-w-0">
-                        <span i18n="@@dashboard.storeMapPosition" class="font-medium text-sm text-gray-900 dark:text-gray-100 block">Store Map
-                          Position</span>
-                        <p i18n="@@dashboard.encodeMapPosition" class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">Encode map position in the
-                          URL to restore the same view on refresh</p>
+                        <span class="font-medium text-sm text-gray-900 dark:text-gray-100 block">儲存地圖位置</span>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">在 URL 中編碼地圖位置，重新載入時恢復相同視圖</p>
                       </div>
                     </div>
                     <p-toggleswitch [(ngModel)]="isMapPositionMode" (onChange)="toggleMapPositionMode()"
@@ -707,9 +691,8 @@
                       <i class="pi pi-sliders-h text-indigo-600 dark:text-indigo-400"></i>
                     </div>
                     <div class="flex flex-col items-start">
-                      <h2 i18n="@@dashboard.dataFilters" class="text-lg font-semibold text-gray-900 dark:text-gray-100">Data & Filters</h2>
-                      <p i18n="@@dashboard.manageCurrency" class="text-xs text-gray-600 dark:text-gray-400">Manage currency and category visibility
-                      </p>
+                      <h2 class="text-lg font-semibold text-gray-900 dark:text-gray-100">資料與篩選</h2>
+                      <p class="text-xs text-gray-600 dark:text-gray-400">管理貨幣和分類可見性</p>
                     </div>
                   </div>
                   <i [class]="dataFiltersExpanded() ? 'pi pi-chevron-up' : 'pi pi-chevron-down'"
@@ -723,10 +706,8 @@
                     <div class="flex items-center gap-3 min-w-0 flex-1">
                       <i class="pi pi-wallet text-gray-600 dark:text-gray-400 flex-shrink-0"></i>
                       <div class="min-w-0">
-                        <span i18n="@@dashboard.currency" class="font-medium text-sm text-gray-900 dark:text-gray-100 block">Currency</span>
-                        <p i18n="@@dashboard.updateDefaultCurrency" class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">Update the default
-                          currency
-                        </p>
+                        <span class="font-medium text-sm text-gray-900 dark:text-gray-100 block">貨幣</span>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">更新預設貨幣</p>
                       </div>
                     </div>
                     <div class="w-full md:w-68">
@@ -739,17 +720,14 @@
                     <div class="flex items-center gap-3 min-w-0 flex-1">
                       <i class="pi pi-filter text-gray-600 dark:text-gray-400 flex-shrink-0"></i>
                       <div class="min-w-0">
-                        <span i18n="@@dashboard.hiddenCategories" class="font-medium text-sm text-gray-900 dark:text-gray-100 block">Hidden
-                          Categories</span>
-                        <p i18n="@@dashboard.selectedHidden" class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">Selected will be hidden by
-                          default
-                        </p>
+                        <span class="font-medium text-sm text-gray-900 dark:text-gray-100 block">隱藏的分類</span>
+                        <p class="text-xs text-gray-500 dark:text-gray-400 hidden lg:block">選擇的分類將預設隱藏</p>
                       </div>
                     </div>
                     <div class="w-full md:w-68">
                       <p-multiselect id="do_not_display" [options]="doNotDisplayOptions()" [group]="true"
                         [filter]="false" [showToggleAll]="false" formControlName="do_not_display"
-                        i18n-placeholder="@@dashboard.select" placeholder="Select..." [showClear]="true" appendTo="body" pSize="small" class="capitalize"
+                        placeholder="選擇..." [showClear]="true" appendTo="body" pSize="small" class="capitalize"
                         fluid />
                     </div>
                   </div>
@@ -763,17 +741,17 @@
                   <i class="pi pi-info-circle text-blue-600 dark:text-blue-400 flex-shrink-0"></i>
                   <span class="text-sm text-gray-700 dark:text-gray-300 truncate">
                     @if (settingsForm.pristine) {
-                    <ng-container i18n="@@dashboard.noChanges">No changes to save</ng-container>
+                    <ng-container>沒有變更需要儲存</ng-container>
                     } @else if (!settingsForm.valid) {
-                    <ng-container i18n="@@dashboard.fixValidation">Please fix validation errors</ng-container>
+                    <ng-container>請修正驗證錯誤</ng-container>
                     } @else {
-                    <ng-container i18n="@@dashboard.unsavedChanges">You have unsaved changes</ng-container>
+                    <ng-container>您有未儲存的變更</ng-container>
                     }
                   </span>
                 </div>
 
                 <div class="flex gap-2 flex-shrink-0">
-                  <p-button i18n-label="@@dashboard.saveLabel" [label]="settingsForm.pristine ? 'Saved' : 'Save'" icon="pi pi-check"
+                  <p-button [label]="settingsForm.pristine ? '已儲存' : '儲存'" icon="pi pi-check"
                     (click)="updateSettings()" [disabled]="!settingsForm.valid || settingsForm.pristine" size="small" />
                 </div>
               </div>
@@ -793,9 +771,9 @@
                   </div>
 
                   <div class="flex flex-col items-start">
-                    <span i18n="@@dashboard.addCategory"
+                    <span
                       class="font-semibold text-sm text-gray-600 dark:text-gray-400 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors duration-200">
-                      Add Category
+                      新增分類
                     </span>
                   </div>
                 </div>
@@ -844,8 +822,8 @@
                   </div>
 
                   <div class="min-w-0 flex-1">
-                    <h1 i18n="@@dashboard.backups" class="text-base font-semibold text-gray-900 dark:text-white">Backups</h1>
-                    <p i18n="@@dashboard.exportData" class="text-xs text-gray-600 dark:text-gray-400">Export your data</p>
+                    <h1 class="text-base font-semibold text-gray-900 dark:text-white">備份</h1>
+                    <p class="text-xs text-gray-600 dark:text-gray-400">匯出您的資料</p>
                   </div>
                 </div>
 
@@ -853,7 +831,7 @@
                   <p-button (click)="fileUpload.click()" text icon="pi pi-upload" size="small" />
                   <input type="file" class="hidden" (change)="importData($event)" #fileUpload>
                   <p-button icon="pi pi-sync" (click)="getBackups()" text size="small" />
-                  <p-button i18n-label="@@dashboard.create" (click)="createBackup()" text label="Create" icon="pi pi-plus" size="small" />
+                  <p-button label="建立" (click)="createBackup()" text icon="pi pi-plus" size="small" />
                 </div>
               </div>
 
@@ -889,19 +867,19 @@
                   <div class="flex flex-col min-w-0">
                     <div class="flex items-center gap-2 mb-1">
                       @if (backup.status === 'processing') {
-                      <span i18n="@@dashboard.processing"
+                      <span
                         class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs font-medium bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300">
-                        Processing
+                        處理中
                       </span>
                       } @else if (backup.status === 'pending') {
-                      <span i18n="@@dashboard.starting"
+                      <span
                         class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs font-medium bg-gray-50 text-gray-700 dark:bg-gray-900/30 dark:text-gray-300">
-                        Starting
+                        啟動中
                       </span>
                       } @else if (backup.status === 'failed') {
-                      <span i18n="@@dashboard.failed"
+                      <span
                         class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs font-medium bg-red-50 text-red-700 dark:bg-red-900/30 dark:text-red-300">
-                        Failed
+                        失敗
                       </span>
                       } @else {
                       <span
@@ -916,7 +894,7 @@
                       <span class="font-mono">{{ (backup.file_size || 0) | fileSize }}</span>
                       @if (backup.created_at) {
                       <div class="hidden md:inline-flex w-px h-4 bg-gray-200 dark:bg-gray-800"></div>
-                      <span i18n="@@dashboard.created" class="hidden md:inline-flex text-xs">Created {{ backup.created_at| date: 'd MMM. y'
+                      <span class="hidden md:inline-flex text-xs">建立於 {{ backup.created_at| date: 'd MMM. y'
                         }}</span>
                       }
                       @if (backup.status === 'failed' && backup.error_message) {
@@ -937,17 +915,17 @@
                 } @empty {
                 <div
                   class="flex flex-col items-center justify-center py-16 px-6 text-center rounded-lg border border-dashed border-gray-300 dark:border-gray-700 bg-gray-50/50 dark:bg-gray-800/30">
-                  <h3 i18n="@@dashboard.noBackups" class="text-base font-semibold text-gray-900 dark:text-white mb-1">
-                    No backups
+                  <h3 class="text-base font-semibold text-gray-900 dark:text-white mb-1">
+                    沒有備份
                   </h3>
-                  <p i18n="@@dashboard.createFirstBackup" class="text-sm text-gray-600 dark:text-gray-400 mb-6 max-w-xs">
-                    Create your first backup to safeguard your data
+                  <p class="text-sm text-gray-600 dark:text-gray-400 mb-6 max-w-xs">
+                    建立您的第一個備份以保護您的資料
                   </p>
 
                   <button (click)="createBackup()"
                     class="cursor-pointer flex items-center gap-2 px-5 py-2.5 rounded-lg bg-blue-500 hover:bg-blue-600 text-white font-medium text-sm shadow-sm hover:shadow transition-all duration-200">
                     <i class="pi pi-plus text-xs"></i>
-                    <span i18n="@@dashboard.createBackup">Create Backup</span>
+                    <span>建立備份</span>
                   </button>
                 </div>
                 }
