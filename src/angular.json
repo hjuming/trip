@@ -18,7 +18,7 @@
         "locales": {
           "zh-Hant": {
             "translation": "src/locale/messages.zh-Hant.xlf",
-            "baseHref": ""
+            "baseHref": "/zh-Hant/"
           }
         }
       },
