@@ -40,12 +40,12 @@
               },
               {
                 "glob": "_redirects",
-                "input": "./",
+                "input": "src",
                 "output": "/"
               },
               {
                 "glob": "_headers",
-                "input": "./",
+                "input": "src",
                 "output": "/"
               }
             ],
