@@ -1,3 +1,4 @@
-/*    /en/:splat    302
-/en/*    /en/index.html    200
-/zh-Hant/*    /zh-Hant/index.html    200
+/  /en/  302  Language=en
+/  /zh-Hant/  302  Language=zh-Hant,zh
+/en/*  /en/index.html  200
+/zh-Hant/*  /zh-Hant/index.html  200
