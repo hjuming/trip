@@ -24,7 +24,7 @@
         <div class="w-6 h-6 rounded-lg flex items-center justify-center flex-none">
           <i class="pi pi-list text-xs"></i>
         </div>
-        <span i18n="@@dashboard.trips" class="hidden sm:inline text-sm font-semibold text-gray-900 dark:text-white">Trips</span>
+        <span class="hidden sm:inline text-sm font-semibold text-gray-900 dark:text-white">行程</span>
       </div>
     </div>
   </div>
@@ -42,8 +42,8 @@
           <i class="pi text-sm transition-transform duration-200"
             [class]="viewPlacesList() ? 'pi-times text-blue-600 dark:text-blue-400 rotate-90' : 'pi-map-marker text-gray-700 dark:text-gray-300'"></i>
         </div>
-          <span i18n="@@dashboard.places" class="select-none hidden md:inline text-sm font-medium"
-          [class]="viewPlacesList() ? 'text-blue-600 dark:text-blue-400' : 'text-gray-900 dark:text-white'">Places</span>
+          <span class="select-none hidden md:inline text-sm font-medium"
+          [class]="viewPlacesList() ? 'text-blue-600 dark:text-blue-400' : 'text-gray-900 dark:text-white'">地點</span>
       </div>
 
       <div class="w-px h-5 bg-gray-200 dark:bg-gray-800"></div>
@@ -55,13 +55,13 @@
           <i class="pi text-sm transition-transform duration-200"
             [class]="viewFilters() ? 'pi-times text-blue-600 dark:text-blue-400 rotate-90' : 'pi-filter text-gray-700 dark:text-gray-300'"></i>
         </div>
-          <span i18n="@@dashboard.filters" class="select-none hidden md:inline text-sm font-medium"
-          [class]="viewFilters() ? 'text-blue-600 dark:text-blue-400' : 'text-gray-900 dark:text-white'">Filters</span>
+          <span class="select-none hidden md:inline text-sm font-medium"
+          [class]="viewFilters() ? 'text-blue-600 dark:text-blue-400' : 'text-gray-900 dark:text-white'">篩選</span>
       </div>
 
       <div class="w-px h-5 bg-gray-200 dark:bg-gray-800"></div>
 
-      <div i18n-pTooltip="@@dashboard.centerOnMyLocation" (click)="centerOnMe()" pTooltip="Center on my location"
+      <div pTooltip="定位到我的位置" (click)="centerOnMe()"
         class="cursor-pointer flex items-center justify-center w-9 h-9 hover:bg-gray-100 dark:hover:bg-gray-900 rounded-lg transition-all">
         <i class="pi pi-bullseye text-gray-700 dark:text-gray-300 text-sm"></i>
       </div>
@@ -93,7 +93,7 @@
         <div class="w-7 h-7 flex items-center justify-center">
           <i class="pi pi-plus text-gray-700 dark:text-gray-300 text-sm"></i>
         </div>
-        <span i18n="@@dashboard.place" class="text-sm font-medium text-gray-900 dark:text-white">Place</span>
+        <span class="text-sm font-medium text-gray-900 dark:text-white">地點</span>
       </button>
       <input type="file" style="display: none;" (change)="onGoogleTakeoutInputChange($event)" #fileUploadTakeout>
       <input type="file" style="display: none;" (change)="onGoogleKmzInputChange($event)" #fileUploadKmz>

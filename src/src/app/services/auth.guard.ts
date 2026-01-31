@@ -5,6 +5,10 @@ import { AuthService } from './auth.service';
 import { of, switchMap, take } from 'rxjs';
 
 export const AuthGuard: CanActivateFn = (_, state) => {
+  // 暫時關閉驗證，開發測試用
+  return of(true);
+  
+  /*
   const router: Router = inject(Router);
   const utilsService = inject(UtilsService);
 
@@ -23,4 +27,5 @@ export const AuthGuard: CanActivateFn = (_, state) => {
         return of(true);
       }),
     );
+  */
 };

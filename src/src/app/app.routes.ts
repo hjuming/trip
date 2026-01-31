@@ -31,12 +31,17 @@ export const routes: Routes = [
 
   {
     path: '',
-    canActivate: [AuthGuard],
+    // canActivate: [AuthGuard],  // 暫時註解掉驗證
     children: [
+      {
+        path: '',
+        redirectTo: '/home',
+        pathMatch: 'full',
+      },
       {
         path: 'home',
         component: DashboardComponent,
-        title: 'TRIP - Map',
+        title: 'TRIP - 地圖',
       },
       {
         path: 'trips',
@@ -44,12 +49,12 @@ export const routes: Routes = [
           {
             path: '',
             component: TripsComponent,
-            title: 'TRIP - Trips',
+            title: 'TRIP - 行程',
           },
           {
             path: ':id',
             component: TripComponent,
-            title: 'TRIP - Trip',
+            title: 'TRIP - 行程詳情',
           },
         ],
       },
